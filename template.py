@@ -1,8 +1,3 @@
-#deep Classifier project
-
-
-Create folder structure using below code
-
 import os
 from pathlib import Path
 import logging
@@ -49,4 +44,3 @@ for filepath in list_of_files:
     else:
         logging.info(f"{filename} already exists")
     
-Folder structure code ends here
