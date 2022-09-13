@@ -19,8 +19,11 @@ list_of_files = [
     f"src/{package_name}/pipeline/__init__.py",
     f"src/{package_name}/entity/__init__.py",
     f"src/{package_name}/constants/__init__.py",
-    f"src/{package_name}/research/__init__.py",
     f"src/{package_name}/example/__init__.py",
+    "tests/__init__.py",
+    "tests/unit/__init__.py",
+    "tests/integration/__init__.py",
+    "research/trials.ipynb",
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",
@@ -48,5 +51,6 @@ for filepath in list_of_files:
     
     else:
         logging.info(f"{filename} already exists")
+    
     
 Folder structure code ends here
