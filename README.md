@@ -1,6 +1,20 @@
 #deep Classifier project
 
 
+## workflow
+1. Update config.yaml
+2. Update Secrets.yaml [Optional]
+3. Update Params.yaml
+4. Update the entity
+5. Update configuration manager in src config.
+6. Update the components
+7. Update the pipeline
+8. Test run pipeline stage
+9. run tox for testing your package
+10. Update the dvc.yaml
+11. run "dvc repro" for running all stages in pipeline
+
+
 Create folder structure using below code
 
 import os
