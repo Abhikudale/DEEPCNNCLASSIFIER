@@ -7,6 +7,8 @@ matplotlib
 seaborn
 python-box==6.0.2
 pyYAML
+types-PyYAML
+scipy
 tqdm
 ensure==1.0.2
 joblib
