@@ -15,3 +15,22 @@
 11. run "dvc repro" for running all the stages in pipeline
 
 ![img](https://raw.githubusercontent.com/c17hawke/FSDS_NOV_deepCNNClassifier/main/docs/images/Data%20Ingestion%402x%20(1).png)
+
+
+STEP 1: Set the env variable | Get it from dagshub -> remote tab -> mlflow tab
+
+MLFLOW_TRACKING_URI=https://dagshub.com/Abhikudale/DEEPCNNCLASSIFIER.mlflow \
+MLFLOW_TRACKING_USERNAME=Abhikudale \
+MLFLOW_TRACKING_PASSWORD=e578372e4ef6b0a71019de4f28fccea2cca896d2 \
+
+STEP 2: install mlflow
+
+STEP 3: Set remote URI
+
+STEP 4: Use context manager of mlflow to start run and then log metrics, params and model
+
+
+MLFLOW_TRACKING_URI=https://dagshub.com/Abhikudale/DEEPCNNCLASSIFIER.mlflow \
+MLFLOW_TRACKING_USERNAME=Abhikudale \
+MLFLOW_TRACKING_PASSWORD=e578372e4ef6b0a71019de4f28fccea2cca896d2 \
+python script.py
